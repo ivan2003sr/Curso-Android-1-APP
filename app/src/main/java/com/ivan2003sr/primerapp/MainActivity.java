@@ -12,6 +12,7 @@ import android.view.View;
 
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,6 +31,16 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+       /*
+        TextView mitexto = new TextView(this); // le paso "this"(Main Activity) que al heredar de
+        // AppCompatActivity que a su vez hereda de Activity y a su vez de context, en realidad le estoy pasando un
+        //"context"
+        mitexto.setText("Hola Iván!! ¿Cómo te va?");//Método setText
+
+        setContentView(mitexto);    // Vista que visualizará la actividad
+    */
+
     }
 
     @Override
